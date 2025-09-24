@@ -1,4 +1,5 @@
 # 🌱 FarmFresh
+DEPLOYMENT LINK: finalwebdevproject.netlify.app
 
 FarmFresh is a responsive web application designed to connect **local startup farmers** with **local consumers**.  
 The platform allows farmers to register, upload, and sell products, while consumers can create accounts, browse, add items to their cart, and purchase.
