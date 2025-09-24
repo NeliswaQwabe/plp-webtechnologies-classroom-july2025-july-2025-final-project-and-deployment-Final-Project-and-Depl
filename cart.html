@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmFresh | Cart</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🌱 FarmFresh</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html" class="active">Cart</a></li>
+        <li><a href="purchase.html">Purchase</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Cart Section -->
+  <section class="content">
+    <h1>Your Shopping Cart 🛒</h1>
+    <div id="cart-items">
+      <p>Your cart is empty.</p>
+    </div>
+    <div id="cart-total" class="cart-total">
+      <h3>Total: $0.00</h3>
+    </div>
+    <button class="btn checkout-btn" onclick="window.location.href='purchase.html'">
+      Proceed to Checkout
+    </button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 FarmFresh. All rights reserved.</p>
+    <p><a href="contact.html">Contact Us</a> | <a href="about.html">About</a></p>
+  </footer>
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+</html>

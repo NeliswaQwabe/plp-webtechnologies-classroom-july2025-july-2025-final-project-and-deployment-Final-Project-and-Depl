@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FarmFresh | Purchase</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">🌱 FarmFresh</div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="cart.html">Cart</a></li>
+        <li><a href="purchase.html" class="active">Purchase</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Purchase -->
+  <section class="content">
+    <h1>Purchase Products</h1>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" required>
+      <label for="address">Delivery Address</label>
+      <input type="text" id="address" required>
+      <label for="payment">Payment Method</label>
+      <select id="payment">
+        <option>Credit Card</option>
+        <option>PayPal</option>
+        <option>Cash on Delivery</option>
+      </select>
+      <button type="submit" class="btn">Confirm Purchase</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 FarmFresh. All rights reserved.</p>
+    <p><a href="contact.html">Contact Us</a> | <a href="about.html">About</a></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
